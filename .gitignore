@@ -1,0 +1,59 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+*.venv/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Python Coverage and Testing
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.pytest_cache/
+*.pytest_cache/
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local Configuration and Secrets
+.env
+*.env
+*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Docker
+Dockerfile*  # Optional: Include if you want to version it
+docker-compose.override.yml
+*.dockerignore
+*.bak
+*.tmp
+
+# macOS
+.DS_Store
+
+# Miscellaneous
+*.swp
+*~
+*.bak
+*.tmp
